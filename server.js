@@ -20,7 +20,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/lms-system', {
+mongoose.connect('mongodb+srv://karthick1242004:9894783774@karthick124.8ruyxjc.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
